@@ -34,7 +34,7 @@ const OBRAS = [
     titulo: "Sin título", anio: 2026, cat: "pintura",
     medida: "Acrílico sobre tela · 100×80 cm",
     descripcion: "Una figura descansa entre nopales, mecida por una penumbra violeta. El verde del desierto se contamina de morado hasta volverse refugio: un retrato del reposo a plena luz del día.",
-    img: "obras/sin-titulo.jpg", destacada: true,
+    img: "deslizador/sin-titulo.jpg", destacada: true,
   },
   {
     titulo: "Luz de nopal", anio: 2026, cat: "pintura",

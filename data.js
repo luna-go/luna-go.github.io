@@ -89,7 +89,7 @@ const POSTS = [
     titulo: "Entre nopales",
     fecha: "2026-06-12",
     resumen: "Notas sobre la serie que empezó con una siesta bajo el sol y terminó en morados imposibles.",
-    img: "obras/sin-titulo.jpg",
+    img: "deslizador/sin-titulo.jpg",
     cuerpo: `
       <p>Empecé esta pieza pensando en el descanso: ese momento en que el cuerpo se rinde al suelo y el paisaje sigue latiendo alrededor. Los nopales, que en el desierto parecen guardianes, aquí se vuelven almohada.</p>
       <h2>El color como refugio</h2>

@@ -20,7 +20,7 @@
   /* --- cabecera completa --- */
   mount.outerHTML = `
     <header class="site-header">
-      <a class="wordmark" href="index.html" aria-label="Luna Go — inicio">Luna go</a>
+      <a class="wordmark" href="index.html" aria-label="Luna Go — inicio">Luna Go</a>
       <nav class="nav" aria-label="Navegacion principal">
         ${cats}
         <a class="nav-link" href="${SITE.aboutUrl}" target="_blank" rel="noopener">About</a>

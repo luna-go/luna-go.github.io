@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luna Go</title>
+  <meta name="description" content="Obra de Luna Go — pintura, mural e ilustración." />
+
+  <!-- Fuentes: Cormorant Garamond (títulos) + Jost (menús/texto).
+       Para probar otra pareja, cambia este enlace y las variables
+       --font-display / --font-body en styles.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== CABECERA ==================== -->
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="Luna Go — inicio">Luna go</a>
+
+    <nav class="nav" aria-label="Navegacion principal">
+      <div class="nav-item" data-menu>
+        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Pintura</button>
+        <div class="dropdown" role="menu">
+          <a href="#" role="menuitem">2026</a>
+          <a href="#" role="menuitem">2025</a>
+          <a href="#" role="menuitem">2024</a>
+          <a href="#" role="menuitem">2023</a>
+        </div>
+      </div>
+
+      <div class="nav-item" data-menu>
+        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Mural</button>
+        <div class="dropdown" role="menu">
+          <a href="#" role="menuitem">2025</a>
+          <a href="#" role="menuitem">2024</a>
+          <a href="#" role="menuitem">2022</a>
+        </div>
+      </div>
+
+      <div class="nav-item" data-menu>
+        <button class="nav-trigger" aria-haspopup="true" aria-expanded="false">Ilustracion</button>
+        <div class="dropdown" role="menu">
+          <a href="#" role="menuitem">2026</a>
+          <a href="#" role="menuitem">2024</a>
+          <a href="#" role="menuitem">2023</a>
+        </div>
+      </div>
+
+      <a class="nav-link" href="https://sites.google.com/view/luna-go/portafolio" target="_blank" rel="noopener">About</a>
+      <a class="nav-link" href="#">Tienda</a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+        <path d="M4 8h18M4 13h18M4 18h18" stroke="currentColor" stroke-width="1.2"/>
+      </svg>
+    </button>
+  </header>
+
+  <!-- panel de menu para movil (se rellena desde script.js) -->
+  <div class="mobile-panel" id="mobilePanel"></div>
+
+  <!-- ==================== PORTADA / SLIDER ==================== -->
+  <main class="hero" aria-roledescription="carrusel" aria-label="Obra selecta de Luna Go">
+    <div class="stage" id="stage"><!-- las diapositivas se generan desde script.js --></div>
+
+    <button class="arrow prev" aria-label="Obra anterior">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button class="arrow next" aria-label="Obra siguiente">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+    <div class="hero-bar">
+      <div class="caption" id="caption" aria-live="polite"><!-- titulo + anio desde script.js --></div>
+      <div class="dots" id="dots" role="tablist" aria-label="Seleccionar obra"></div>
+    </div>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

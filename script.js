@@ -11,7 +11,7 @@
    La primera es la pintura real de Luna recortada del boceto.
    ------------------------------------------------------------ */
 const obras = [
-  { titulo: "Sin título",     anio: 2026, categoria: "Pintura",     img: "obras/sin-titulo.jpg" },
+  { titulo: "Sin título",     anio: 2026, categoria: "Pintura",     img: "pintura/sin-titulo.jpg" },
   { titulo: "Marea de plata", anio: 2025, categoria: "Pintura",     img: null },
   { titulo: "Cráter",         anio: 2024, categoria: "Mural",       img: null },
   { titulo: "Eclipse íntimo", anio: 2024, categoria: "Ilustración", img: null },

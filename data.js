@@ -28,7 +28,7 @@ const CATEGORIAS = [
      img       → ruta de la imagen (p. ej. "obras/marea.jpg"); null = ejemplo
      destacada → true si quieres que salga en el slider de la portada         */
 const OBRAS = [
-  { titulo: "Sin título",      anio: 2026, cat: "pintura",     medida: "Acrílico sobre tela · 100×80 cm", img: "obras/sin-titulo.jpg", destacada: true },
+  { titulo: "Sin título",      anio: 2026, cat: "pintura",     medida: "Acrílico sobre tela · 100×80 cm", img: "deslizador/sin-titulo.jpg", destacada: true },
   { titulo: "Luz de nopal",    anio: 2026, cat: "pintura",     medida: "Acrílico sobre tela",             img: null,                   destacada: false },
   { titulo: "Marea de plata",  anio: 2025, cat: "pintura",     medida: "Óleo sobre tela",                 img: null,                   destacada: true },
   { titulo: "Cráter",          anio: 2024, cat: "mural",       medida: "Acrílico · 4×3 m",                img: null,                   destacada: true },

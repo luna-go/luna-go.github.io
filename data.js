@@ -41,7 +41,7 @@ const ABOUT = {
 /* El "slug" es el nombre corto que va en la dirección (sin acentos ni espacios). */
 const CATEGORIAS = [
   { nombre: "Pintura",     slug: "pintura",     anios: [2026, 2025, 2024, 2023] },
-  { nombre: "Mural",       slug: "mural",       anios: [2025, 2024, 2023] },
+  { nombre: "Mural",       slug: "mural",       anios: [2024, 2023] },
   { nombre: "Ilustración", slug: "ilustracion", anios: [2026, 2024, 2023] },
 ];
 

@@ -14,7 +14,7 @@ const SITE = {
   // Redes sociales (salen en el pie de TODAS las páginas). Añade o quita las que quieras.
   redes: [
     { nombre: "Instagram", url: "https://www.instagram.com/_luna_go_" },
-    { nombre: "TikTok",    url: "https://tiktok.com/@luna_go_" },
+    //{ nombre: "TikTok",    url: "https://tiktok.com/@luna_go_" },
     //{ nombre: "Behance",   url: "https://behance.net/tu_usuario" },
   ],
 };

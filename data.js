@@ -57,22 +57,16 @@ const CATEGORIAS = [
      destacada → true si quieres que salga en el slider de la portada
      venta     → true si está EN VENTA (aparece en la Tienda). false si no.
      precio    → precio a mostrar en la Tienda, p. ej. "1.200 €". "" si no aplica. */
-const OBRAS = [
+
+
+// ==================== PINTURA ====================
+const PINTURAS = [
+
   // 2026
-  {
-    titulo: "Sin nombre",
-    anio: 2026,
-    cat: "ilustracion",
-    medida: "",
-    descripcion: "",
-    img: "obras/26/sin_nombre_ilustracion_26.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
   {
     titulo: "La sociedad del cansancio",
     anio: 2026,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -84,6 +78,7 @@ const OBRAS = [
   {
     titulo: "La invitada",
     anio: 2026,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -95,6 +90,7 @@ const OBRAS = [
   {
     titulo: "Hilanderas",
     anio: 2026,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -106,6 +102,7 @@ const OBRAS = [
   {
     titulo: "Felipa",
     anio: 2026,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -117,6 +114,7 @@ const OBRAS = [
   {
     titulo: "Corazón de nopal",
     anio: 2026,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -130,6 +128,7 @@ const OBRAS = [
   {
     titulo: "Respirar despacio",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -141,6 +140,7 @@ const OBRAS = [
   {
     titulo: "Oaxaca",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -152,6 +152,7 @@ const OBRAS = [
   {
     titulo: "Murphy",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -163,6 +164,7 @@ const OBRAS = [
   {
     titulo: "Las flores de mi vida (flores de mayo)",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -174,6 +176,7 @@ const OBRAS = [
   {
     titulo: "Entre bugambilias",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -185,6 +188,7 @@ const OBRAS = [
   {
     titulo: "Donde no se toca fondo",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -196,6 +200,7 @@ const OBRAS = [
   {
     titulo: "Donde habita lo otro",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -207,6 +212,7 @@ const OBRAS = [
   {
     titulo: "Dicen que no hay guerra",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -218,6 +224,7 @@ const OBRAS = [
   {
     titulo: "Desde niñxs festejamos (teotitlan del valle)",
     anio: 2025,
+    mes: "",
     cat: "pintura",
     medida: "",
     descripcion: "",
@@ -226,6 +233,122 @@ const OBRAS = [
     venta: false,
     precio: ""
   },
+
+  // 2024
+  {
+    titulo: "Yo te cuido",
+    anio: 2024,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/yo_te_cuido_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Mas allá del cuerpo",
+    anio: 2024,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/mas_alla_del_cuerpo_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Incendios",
+    anio: 2024,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/incendios_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Estudio",
+    anio: 2024,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/estudio_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "El viaje",
+    anio: 2024,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/el_viaje_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+
+  // 2023
+  {
+    titulo: "Momo",
+    anio: 2023,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/momo_pintura_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "La luna",
+    anio: 2023,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/la_luna_pintura_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "La espera",
+    anio: 2023,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/la_espera_pintura_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Estudio de color y luz",
+    anio: 2023,
+    mes: "",
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/estudio_de_color_y_luz_pintura_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+];
+
+// ==================== MURAL ====================
+const MURALES = [
 
   // 2024
   {
@@ -241,138 +364,27 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Yo te cuido",
-    anio: 2024,
-    cat: "pintura",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/yo_te_cuido_pintura_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "Volver por flores",
-    anio: 2024,
-    cat: "ilustracion",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/volver_por_flores_ilustracion_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
     titulo: "Sin mirar atrás",
     anio: 2024,
     mes: "Marzo",
     cat: "mural",
     medida: "Vinil y acrílico sobre ladrillo · 29m x 3m",
     descripcion: `Donde la libertad parece extinta, aún surge un santuario: un espacio donde el pensamiento libre desafía las cadenas, donde el género no importa, todos somos iguales; el espíritu humano florece alimentado por el abono de un pájaro. En este lugar, la creatividad y la resistencia se entrelazan, y demuestran que la libertad no puede ser sofocada por las circunstancias más adversas.
-    
-    Proyecto gestionado por el artista Mother (Marco Gonzáles) para Roel Comercializadora y el Club Rotario Xquenda A.C. Video [aquí](https://www.nuestrocine.mx/detail/3928)`,
+
+Proyecto gestionado por el artista Mother (Marco Gonzáles) para Roel Comercializadora y el Club Rotario Xquenda A.C. Video [aquí](https://www.nuestrocine.mx/detail/3928)`,
     img: "obras/24/sin_mirar_atras_mural_24.jpg",
     destacada: false,
     venta: false,
     precio: ""
   },
   {
-    titulo: "Pra crecer se leva tempo",
-    anio: 2024,
-    cat: "ilustracion",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/pra_crecer_se_leva_tempo_ilustracion_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
     titulo: "Nuestra madre (la mixteca)",
-    mes: "Mayo",
     anio: 2024,
+    mes: "Mayo",
     cat: "mural",
     medida: "Vinil y acrílico sobre ladrillo · 8m x 2.5m",
     descripcion: `Proyecto #VaporlaRoma gestionado por Jóvenes Artesanos`,
     img: "obras/24/nuestra_madre(la_mixteca)_mural_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "Nuestra madre (la mixteca)",
-    anio: 2024,
-    mes: "Mayo",
-    cat: "ilustracion",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/nuestra_madre(la_mixteca)_ilustracion_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "Mas allá del cuerpo",
-    anio: 2024,
-    cat: "pintura",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/mas_alla_del_cuerpo_pintura_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "Insomnio de luna llena",
-    anio: 2024,
-    cat: "ilustracion",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/insomnio_de_luna_llena_ilustracion_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "Incendios",
-    anio: 2024,
-    cat: "pintura",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/incendios_pintura_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "Estudio",
-    anio: 2024,
-    cat: "pintura",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/estudio_pintura_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "El viaje",
-    anio: 2024,
-    cat: "pintura",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/el_viaje_pintura_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "El viaje",
-    anio: 2024,
-    cat: "ilustracion",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/el_viaje_ilustracion_24.jpg",
     destacada: false,
     venta: false,
     precio: ""
@@ -398,10 +410,10 @@ const OBRAS = [
     cat: "mural",
     medida: "",
     descripcion: `Las plantas siempre han estado presentes en mi vida, cada vez que me enfermaba mi mamá me daba tés para la gripa, para el empacho, la bilis, el estreñimiento y otras enfermedades, ahora que vivo en otra ciudad a lo primero que recurro es a tomar tés. Se vuelve eso que me reconecta con mi pertenencia con Oaxaca, con mis ancestros, con las tradiciones a través del aroma, el calor y el sabor.
-    
-    La medicina tradicional siempre ha estado presente en Oaxaca, por eso pinto y retomo el poleo (mentha pulegium). Los zapotecos le llaman hierba o rosa de borracho, poleo, guiezza y quieuetzu, sirve para curar la cruda, cólicos entre otros males.
-    
-    Mural realizado para el 3er Festival internacional de murales en Mitla.`,
+
+La medicina tradicional siempre ha estado presente en Oaxaca, por eso pinto y retomo el poleo (mentha pulegium). Los zapotecos le llaman hierba o rosa de borracho, poleo, guiezza y quieuetzu, sirve para curar la cruda, cólicos entre otros males.
+
+Mural realizado para el 3er Festival internacional de murales en Mitla.`,
     img: "obras/23/te_de_poleo_mural_23.jpg",
     destacada: false,
     venta: false,
@@ -414,12 +426,12 @@ const OBRAS = [
     cat: "mural",
     medida: "Vinil y acrílico sobre concreto · 8m x 5m",
     descripcion: `::Café en taza
-    ::¿Qué dicen mis abuelos?
-    ::quédate aroma
-    
-    El café ha sido un punto de encuentro para muchas familias en Xico, a veces para sentarse a comer unas naranjas después de la recolección, o para contar historias sobre los ancestros. Este mural es en honor a la cultura xiqueña y la importancia de la recolección de café pero sobre todo a las familias que han encontrado espacios para generar lazos y unirse para mantener este legado. 
-    
-    Mural para el proyecto "Rutas Mágicas" de México Bien Hecho. Comex.`,
+::¿Qué dicen mis abuelos?
+::quédate aroma
+
+El café ha sido un punto de encuentro para muchas familias en Xico, a veces para sentarse a comer unas naranjas después de la recolección, o para contar historias sobre los ancestros. Este mural es en honor a la cultura xiqueña y la importancia de la recolección de café pero sobre todo a las familias que han encontrado espacios para generar lazos y unirse para mantener este legado.
+
+Mural para el proyecto "Rutas Mágicas" de México Bien Hecho. Comex.`,
     img: "obras/23/cafe_en_taza_mural_23.jpg",
     destacada: false,
     venta: false,
@@ -432,51 +444,101 @@ const OBRAS = [
     cat: "mural",
     medida: "Vinil y acrílico sobre concreto · 7m × 4m",
     descripcion: `Este mural hace referencia a la importancia de la recolección de café y de moras y a la transformación de estos bienes ecosistémicos: licor de moras y café bebible, regalo del territorio que ha hecho que los xiqueños generen lazos y se unan para mantener este legado.
-    ::Comer tus moras
-    ::beber de tu café
-    ::compartir vidas.
-    Mural para el proyecto "Rutas Mágicas" de México Bien Hecho. Comex.`,
+::Comer tus moras
+::beber de tu café
+::compartir vidas.
+Mural para el proyecto "Rutas Mágicas" de México Bien Hecho. Comex.`,
     img: "obras/23/moras_y_cafe_mural_23.jpg",
     destacada: false,
     venta: false,
     precio: ""
   },
+];
+
+// ==================== ILUSTRACIÓN ====================
+const ILUSTRACIONES = [
+
+  // 2026
   {
-    titulo: "Momo",
-    anio: 2023,
-    cat: "pintura",
+    titulo: "Sin nombre",
+    anio: 2026,
+    mes: "",
+    cat: "ilustracion",
     medida: "",
     descripcion: "",
-    img: "obras/23/momo_pintura_23.jpg",
+    img: "obras/26/sin_nombre_ilustracion_26.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+
+  // 2024
+  {
+    titulo: "Nuestra madre (la mixteca)",
+    anio: 2024,
+    mes: "Mayo",
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/nuestra_madre(la_mixteca)_ilustracion_24.jpg",
     destacada: false,
     venta: false,
     precio: ""
   },
   {
-    titulo: "La luna",
-    anio: 2023,
-    cat: "pintura",
+    titulo: "Volver por flores",
+    anio: 2024,
+    mes: "",
+    cat: "ilustracion",
     medida: "",
     descripcion: "",
-    img: "obras/23/la_luna_pintura_23.jpg",
+    img: "obras/24/volver_por_flores_ilustracion_24.jpg",
     destacada: false,
     venta: false,
     precio: ""
   },
   {
-    titulo: "La espera",
-    anio: 2023,
-    cat: "pintura",
+    titulo: "Pra crecer se leva tempo",
+    anio: 2024,
+    mes: "",
+    cat: "ilustracion",
     medida: "",
     descripcion: "",
-    img: "obras/23/la_espera_pintura_23.jpg",
+    img: "obras/24/pra_crecer_se_leva_tempo_ilustracion_24.jpg",
     destacada: false,
     venta: false,
     precio: ""
   },
+  {
+    titulo: "Insomnio de luna llena",
+    anio: 2024,
+    mes: "",
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/insomnio_de_luna_llena_ilustracion_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "El viaje",
+    anio: 2024,
+    mes: "",
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/el_viaje_ilustracion_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+
+  // 2023
   {
     titulo: "Fiesta oaxaqueña",
     anio: 2023,
+    mes: "",
     cat: "ilustracion",
     medida: "",
     descripcion: "",
@@ -486,19 +548,9 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Estudio de color y luz",
-    anio: 2023,
-    cat: "pintura",
-    medida: "",
-    descripcion: "",
-    img: "obras/23/estudio_de_color_y_luz_pintura_23.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
     titulo: "Caer",
     anio: 2023,
+    mes: "",
     cat: "ilustracion",
     medida: "",
     descripcion: "",
@@ -507,8 +559,12 @@ const OBRAS = [
     venta: false,
     precio: ""
   },
-  
 ];
+
+// ==================== TODAS LAS OBRAS ====================
+// El resto de tu código sigue usando OBRAS, sin cambios.
+const OBRAS = [...PINTURAS, ...MURALES, ...ILUSTRACIONES];
+
 
 /* BLOG / DIARIO ------------------------------------------------------------- */
 /* Cada entrada:

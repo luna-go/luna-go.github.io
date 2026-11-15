@@ -450,6 +450,7 @@ body{
   line-height: 1.65;
   color: #4a496a;
 }
+.v-desc .c{ text-align: center; }
 
 /* tira de miniaturas */
 .filmstrip{

@@ -400,7 +400,7 @@ body{
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;         /* la obra se ve ENTERA, sin recortar */
-  box-shadow: 0 24px 55px -30px rgba(38,36,72,.5);
+  box-shadow: none;
   cursor: zoom-in;             /* clic = pantalla completa */
 }
 .v-ph{ width: 70%; height: 80%; background-size: cover; background-position: center; }

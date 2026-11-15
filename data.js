@@ -256,7 +256,7 @@ const OBRAS = [
     medida: "Vinil y acrílico sobre ladrillo · 29m x 3m",
     descripcion: `Donde la libertad parece extinta, aún surge un santuario: un espacio donde el pensamiento libre desafía las cadenas, donde el género no importa, todos somos iguales; el espíritu humano florece alimentado por el abono de un pájaro. En este lugar, la creatividad y la resistencia se entrelazan, y demuestran que la libertad no puede ser sofocada por las circunstancias más adversas.
     
-    Proyecto gestionado por el artista Mother (Marco Gonzáles) para Roel Comercializadora y el Club Rotario Xquenda A.C. Video: https://www.nuestrocine.mx/detail/3928`,
+    Proyecto gestionado por el artista Mother (Marco Gonzáles) para Roel Comercializadora y el Club Rotario Xquenda A.C. Video [aquí](https://www.nuestrocine.mx/detail/3928)`,
     img: "obras/24/sin_mirar_atras_mural_24.jpg",
     destacada: false,
     venta: false,

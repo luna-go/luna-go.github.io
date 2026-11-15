@@ -48,6 +48,7 @@ const CATEGORIAS = [
 /* Cada obra:
      titulo    → nombre de la obra
      anio      → año (número)
+     mes       → mes ("Enero" | "Febrero | ...)
      cat       → slug de la categoría ("pintura" | "mural" | "ilustracion")
      medida    → técnica/medidas (texto libre; puede quedar vacío "")
      descripcion → texto sobre la obra; se ve SOLO en la galería, no en la
@@ -252,6 +253,7 @@ const OBRAS = [
   {
     titulo: "Sin mirar atrás",
     anio: 2024,
+    mes: "Marzo",
     cat: "mural",
     medida: "Vinil y acrílico sobre ladrillo · 29m x 3m",
     descripcion: `Donde la libertad parece extinta, aún surge un santuario: un espacio donde el pensamiento libre desafía las cadenas, donde el género no importa, todos somos iguales; el espíritu humano florece alimentado por el abono de un pájaro. En este lugar, la creatividad y la resistencia se entrelazan, y demuestran que la libertad no puede ser sofocada por las circunstancias más adversas.
@@ -276,6 +278,7 @@ const OBRAS = [
   {
     titulo: "Orejas",
     anio: 2024,
+    mes: "Enero",
     cat: "mural",
     medida: "Acrílico sobre concreto · 4m x 2.5m",
     descripcion: "",
@@ -286,6 +289,7 @@ const OBRAS = [
   },
   {
     titulo: "Nuestra madre (la mixteca)",
+    mes: "Mayo",
     anio: 2024,
     cat: "mural",
     medida: "Vinil y acrílico sobre ladrillo · 8m x 2.5m",
@@ -298,6 +302,7 @@ const OBRAS = [
   {
     titulo: "Nuestra madre (la mixteca)",
     anio: 2024,
+    mes: "Mayo",
     cat: "ilustracion",
     medida: "",
     descripcion: "",
@@ -377,6 +382,7 @@ const OBRAS = [
   {
     titulo: "Té de poleo",
     anio: 2023,
+    mes: "Octubre",
     cat: "mural",
     medida: "",
     descripcion: `Las plantas siempre han estado presentes en mi vida, cada vez que me enfermaba mi mamá me daba tés para la gripa, para el empacho, la bilis, el estreñimiento y otras enfermedades, ahora que vivo en otra ciudad a lo primero que recurro es a tomar tés. Se vuelve eso que me reconecta con mi pertenencia con Oaxaca, con mis ancestros, con las tradiciones a través del aroma, el calor y el sabor.
@@ -392,6 +398,7 @@ const OBRAS = [
   {
     titulo: "Moras y café",
     anio: 2023,
+    mes: "Diciembre",
     cat: "mural",
     medida: "Vinil y acrílico sobre concreto · 7m × 4m",
     descripcion: `Este mural hace referencia a la importancia de la recolección de café y de moras y a la transformación de estos bienes ecosistémicos: licor de moras y café bebible, regalo del territorio que ha hecho que los xiqueños generen lazos y se unan para mantener este legado.
@@ -462,6 +469,7 @@ const OBRAS = [
   {
     titulo: "Café en taza",
     anio: 2023,
+    mes: "Noviembre",
     cat: "mural",
     medida: "Vinil y acrílico sobre concreto · 8m x 5m",
     descripcion: `::Café en taza
@@ -490,6 +498,7 @@ const OBRAS = [
   {
     titulo: "Bordados",
     anio: 2023,
+    mes: "Junio",
     cat: "mural",
     medida: "Vinil y acrílico sobre concreto · 4m x 6m",
     descripcion: `Mural para el festival "Tierra del Mural"`,

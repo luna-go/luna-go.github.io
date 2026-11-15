@@ -376,9 +376,9 @@ body{
   position: relative;
   flex: 1;
   min-height: calc(100vh - var(--header-h) - 11rem);
-  border: 1px solid var(--frame);
+  border: 0;
   border-radius: 2px;
-  background: #f4f3f8;
+  background: transparent;
   overflow: hidden;
 }
 .v-slide{

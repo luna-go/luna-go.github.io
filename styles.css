@@ -61,7 +61,7 @@ body{
 
 .wordmark{
   font-family: var(--font-display);
-  font-style: italic;
+  font-style: normal;
   font-weight: 600;
   font-size: 2rem;
   line-height: 1;

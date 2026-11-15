@@ -115,7 +115,7 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Corazon de nopal",
+    titulo: "Corazón de nopal",
     anio: 2026,
     cat: "pintura",
     medida: "",
@@ -177,7 +177,7 @@ const OBRAS = [
     cat: "pintura",
     medida: "",
     descripcion: "",
-    img: "obras/25/entre bugambilias_pintura_25.jpg",
+    img: "obras/25/entre_bugambilias_pintura_25.jpg",
     destacada: false,
     venta: false,
     precio: ""
@@ -199,7 +199,7 @@ const OBRAS = [
     cat: "pintura",
     medida: "",
     descripcion: "",
-    img: "obras/25/donde_habita_lo otro_pintura_25.jpg",
+    img: "obras/25/donde_habita_lo_otro_pintura_25.jpg",
     destacada: false,
     venta: false,
     precio: ""
@@ -251,7 +251,7 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Sin mirar atras",
+    titulo: "Sin mirar atrás",
     anio: 2024,
     cat: "mural",
     medida: "",
@@ -262,7 +262,7 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Sin mirar atras g",
+    titulo: "Sin mirar atrás",
     anio: 2024,
     cat: "mural",
     medida: "",
@@ -317,7 +317,7 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Mas alla del cuerpo",
+    titulo: "Mas allá del cuerpo",
     anio: 2024,
     cat: "pintura",
     medida: "",
@@ -385,7 +385,7 @@ const OBRAS = [
 
   // 2023
   {
-    titulo: "Te de poleo",
+    titulo: "Té de poleo",
     anio: 2023,
     cat: "mural",
     medida: "",
@@ -396,7 +396,7 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Moras y cafe",
+    titulo: "Moras y café",
     anio: 2023,
     cat: "mural",
     medida: "",
@@ -462,7 +462,7 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Cafe en taza",
+    titulo: "Café en taza",
     anio: 2023,
     cat: "mural",
     medida: "",

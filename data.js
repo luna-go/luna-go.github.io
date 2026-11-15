@@ -229,6 +229,18 @@ const OBRAS = [
 
   // 2024
   {
+    titulo: "Orejas",
+    anio: 2024,
+    mes: "Enero",
+    cat: "mural",
+    medida: "Acrílico sobre concreto · 4m x 2.5m",
+    descripcion: "",
+    img: "obras/24/orejas_mural_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
     titulo: "Yo te cuido",
     anio: 2024,
     cat: "pintura",
@@ -271,18 +283,6 @@ const OBRAS = [
     medida: "",
     descripcion: "",
     img: "obras/24/pra_crecer_se_leva_tempo_ilustracion_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
-    titulo: "Orejas",
-    anio: 2024,
-    mes: "Enero",
-    cat: "mural",
-    medida: "Acrílico sobre concreto · 4m x 2.5m",
-    descripcion: "",
-    img: "obras/24/orejas_mural_24.jpg",
     destacada: false,
     venta: false,
     precio: ""

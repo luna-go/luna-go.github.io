@@ -380,6 +380,18 @@ const OBRAS = [
 
   // 2023
   {
+    titulo: "Bordados",
+    anio: 2023,
+    mes: "Junio",
+    cat: "mural",
+    medida: "Vinil y acrílico sobre concreto · 4m x 6m",
+    descripcion: `Mural para el festival "Tierra del Mural"`,
+    img: "obras/23/bordados_mural_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
     titulo: "Té de poleo",
     anio: 2023,
     mes: "Octubre",
@@ -391,6 +403,24 @@ const OBRAS = [
     
     Mural realizado para el 3er Festival internacional de murales en Mitla.`,
     img: "obras/23/te_de_poleo_mural_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Café en taza",
+    anio: 2023,
+    mes: "Noviembre",
+    cat: "mural",
+    medida: "Vinil y acrílico sobre concreto · 8m x 5m",
+    descripcion: `::Café en taza
+    ::¿Qué dicen mis abuelos?
+    ::quédate aroma
+    
+    El café ha sido un punto de encuentro para muchas familias en Xico, a veces para sentarse a comer unas naranjas después de la recolección, o para contar historias sobre los ancestros. Este mural es en honor a la cultura xiqueña y la importancia de la recolección de café pero sobre todo a las familias que han encontrado espacios para generar lazos y unirse para mantener este legado. 
+    
+    Mural para el proyecto "Rutas Mágicas" de México Bien Hecho. Comex.`,
+    img: "obras/23/cafe_en_taza_mural_23.jpg",
     destacada: false,
     venta: false,
     precio: ""
@@ -467,24 +497,6 @@ const OBRAS = [
     precio: ""
   },
   {
-    titulo: "Café en taza",
-    anio: 2023,
-    mes: "Noviembre",
-    cat: "mural",
-    medida: "Vinil y acrílico sobre concreto · 8m x 5m",
-    descripcion: `::Café en taza
-    ::¿Qué dicen mis abuelos?
-    ::quédate aroma
-    
-    El café ha sido un punto de encuentro para muchas familias en Xico, a veces para sentarse a comer unas naranjas después de la recolección, o para contar historias sobre los ancestros. Este mural es en honor a la cultura xiqueña y la importancia de la recolección de café pero sobre todo a las familias que han encontrado espacios para generar lazos y unirse para mantener este legado. 
-    
-    Mural para el proyecto "Rutas Mágicas" de México Bien Hecho. Comex.`,
-    img: "obras/23/cafe_en_taza_mural_23.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
     titulo: "Caer",
     anio: 2023,
     cat: "ilustracion",
@@ -495,18 +507,7 @@ const OBRAS = [
     venta: false,
     precio: ""
   },
-  {
-    titulo: "Bordados",
-    anio: 2023,
-    mes: "Junio",
-    cat: "mural",
-    medida: "Vinil y acrílico sobre concreto · 4m x 6m",
-    descripcion: `Mural para el festival "Tierra del Mural"`,
-    img: "obras/23/bordados_mural_23.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
+  
 ];
 
 /* BLOG / DIARIO ------------------------------------------------------------- */

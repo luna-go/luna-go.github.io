@@ -74,13 +74,16 @@
       (o.medida ? `<div class="med">${o.medida}</div>` : '');
     descEl.innerHTML = (o.descripcion || '')
   .split('\n')
-  .map(linea => {
-    const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    const t = linea.trim();
-    if (t === '') return '<br>';
-    if (t.startsWith('::')) return `<div class="c">${esc(t.slice(2).trim())}</div>`;
-    return `<div>${esc(t)}</div>`;
-  }).join('');
+   .map(linea => {
+        const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        const link = s => s.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,   // [texto](dirección) = enlace
+          '<a href="$2" target="_blank" rel="noopener">$1</a>');
+        const fmt = s => link(esc(s));
+        const t = linea.trim();
+        if (t === '') return '<br>';                                  // línea vacía = espacio
+        if (t.startsWith('::')) return `<div class="c">${fmt(t.slice(2).trim())}</div>`; // :: = centrada
+        return `<div>${fmt(t)}</div>`;                                // normal = izquierda
+      }).join('');
     descEl.style.display = o.descripcion ? 'block' : 'none';
     counterEl.textContent =
       String(idx + 1).padStart(2, '0') + ' / ' + String(obras.length).padStart(2, '0');

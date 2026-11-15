@@ -29,7 +29,7 @@ const ABOUT = {
 
     <p>En 2016 comenzó a pintar murales desde un enfoque poético y narrativo, buscando que el espacio público sea un lugar de encuentro y diálogo. Ha participado en festivales y proyectos artísticos en varios estados de México.</p>
 
-    <p>Actualmente vive en Madrid, España, donde estudia pintura al óleo en la Fundación Museo Sorolla y el Estudio de Alejandro Decinti. Su práctica artística se ha desplazado del mural al lienzo, explorando nuevas formas íntimas de contar historias marcadas por la experiencia migratoria y la memoria del territorio.</p>
+    <p>Actualmente vive en Madrid, España, donde estudia pintura al óleo en la [Fundación Museo Sorolla](https://www.cultura.gob.es/msorolla/inicio.html) y el [Estudio de Alejandro Decinti](https://www.decintivillalon.com). Su práctica artística se ha desplazado del mural al lienzo, explorando nuevas formas íntimas de contar historias marcadas por la experiencia migratoria y la memoria del territorio.</p>
 
     <p>Ha realizado murales como <em>“Sin Mirar Atrás”</em> en el Reclusorio Femenil de Tanivet, Oaxaca, y <em>“Vivas y Libres”</em> en el Instituto de la Mujer Oaxaqueña, así como proyectos de ilustración para Ora World Mandala. Participó en exposiciones colectivas como <em>“Apuntes de Luz”</em> en Madrid (2025) y en festivales internacionales de muralismo en México.</p>
   

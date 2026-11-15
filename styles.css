@@ -724,3 +724,6 @@ body{
 }
 .v-desc a:hover,
 .post-body a:hover{ color: var(--lilac); }
+
+#gTitle{ display: none; }
+/* #gCounter{ display: none; }. */

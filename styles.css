@@ -727,3 +727,6 @@ body{
 
 #gTitle{ display: none; }
 /* #gCounter{ display: none; }. */
+
+.v-bar{ display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem; }
+.gdots{ flex: 0 0 auto; padding-bottom: .35rem; }

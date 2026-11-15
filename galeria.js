@@ -72,7 +72,15 @@
     metaEl.innerHTML =
       `<div class="v-line"><span class="t">${o.titulo}</span><span class="y">${o.anio}</span></div>` +
       (o.medida ? `<div class="med">${o.medida}</div>` : '');
-    descEl.textContent = o.descripcion || '';
+    descEl.innerHTML = (o.descripcion || '')
+  .split('\n')
+  .map(linea => {
+    const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const t = linea.trim();
+    if (t === '') return '<br>';
+    if (t.startsWith('::')) return `<div class="c">${esc(t.slice(2).trim())}</div>`;
+    return `<div>${esc(t)}</div>`;
+  }).join('');
     descEl.style.display = o.descripcion ? 'block' : 'none';
     counterEl.textContent =
       String(idx + 1).padStart(2, '0') + ' / ' + String(obras.length).padStart(2, '0');

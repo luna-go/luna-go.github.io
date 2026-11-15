@@ -70,7 +70,7 @@
     thumbs.forEach((t, i) => t.classList.toggle('is-active', i === idx));
     const o = obras[idx];
     metaEl.innerHTML =
-      `<div class="v-line"><span class="t">${o.titulo}</span><span class="y">${o.anio}</span></div>` +
+      `<div class="v-line"><span class="t">${o.titulo}</span><span class="y">${o.mes ? o.mes + ' ' : ''}${o.anio}</span></div>` +
       (o.medida ? `<div class="med">${o.medida}</div>` : '');
     descEl.innerHTML = (o.descripcion || '')
   .split('\n')

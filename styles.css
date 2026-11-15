@@ -210,7 +210,7 @@ body{
   background-size: cover;
   background-position: center;
 }
-.slide img.art{ width: 100%; height: 100%; object-fit: cover; display: block; }
+.slide img.art{ width: 100%; height: 100%; object-fit: contain; display: block; }
 
 /* flechas */
 .arrow{

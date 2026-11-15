@@ -400,7 +400,11 @@ const OBRAS = [
     anio: 2023,
     cat: "mural",
     medida: "Vinil y acrílico sobre concreto · 7m × 4m",
-    descripcion: "Este mural hace referencia a la importancia de la recolección de café y de moras y a la transformación de estos bienes ecosistémicos: licor de moras y café bebible, regalo del territorio que ha hecho que los xiqueños generen lazos y se unan para mantener este legado.",
+    descripcion: `Este mural hace referencia a la importancia de la recolección de café y de moras y a la transformación de estos bienes ecosistémicos: licor de moras y café bebible, regalo del territorio que ha hecho que los xiqueños generen lazos y se unan para mantener este legado.
+    ::Comer tus moras
+    ::beber de tu café
+    ::compartir vidas.
+    Mural para el proyecto "Rutas Mágicas" de México Bien Hecho. Comex.`,
     img: "obras/23/moras_y_cafe_mural_23.jpg",
     destacada: false,
     venta: false,

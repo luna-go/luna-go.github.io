@@ -94,4 +94,16 @@
     `<span class="foot-copy">© ${new Date().getFullYear()} Luna Go</span>` +
     `<nav class="foot-social" aria-label="Redes sociales">${redes.join('')}</nav>`;
   document.body.appendChild(footer);
+
+  /* --- icono de la pestaña (favicon) --- */
+  const iconos = [
+    { rel: 'icon', href: 'favicon.ico' },
+    { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'favicon-32.png' },
+    { rel: 'apple-touch-icon', href: 'apple-touch-icon.png' },
+  ];
+  iconos.forEach(o => {
+    const l = document.createElement('link');
+    Object.entries(o).forEach(([k, v]) => l.setAttribute(k, v));
+    document.head.appendChild(l);
+  });
 })();

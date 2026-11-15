@@ -8,6 +8,13 @@
 
   document.title = `Luna Go — ${ABOUT.titulo}`;
 
+   
+  // convierte [texto](dirección) en un enlace
+  const cuerpo = (ABOUT.cuerpo || '').replace(
+    /\[([^\]]+)\]\(([^)\s]+)\)/g,
+    '<a href="$2" target="_blank" rel="noopener">$1</a>'
+  );
+
   const retrato = ABOUT.retrato
     ? `<img class="about-portrait" src="${ABOUT.retrato}" alt="${ABOUT.titulo}">`
     : '';
@@ -18,6 +25,6 @@
 
   host.innerHTML =
     `<h1 class="post-title">${ABOUT.titulo}</h1>` +
-    `<div class="post-body">${retrato}${ABOUT.cuerpo}</div>` +
+    `<div class="post-body">${retrato}${cuerpo}</div>` +
     extra;
 })();

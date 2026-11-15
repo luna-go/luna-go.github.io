@@ -8,14 +8,14 @@
 /* Ajustes generales --------------------------------------------------------- */
 const SITE = {
   // Correo para consultas de compra en la Tienda. Déjalo "" para ocultarlo.
-  email: "hola@lunago.art",
+  email: "adiosalinvierno@gmail.com",
   // Enlace opcional a tu portafolio completo (se puede mostrar en About). "" = ocultar.
-  portafolioUrl: "https://sites.google.com/view/luna-go/portafolio",
+  portafolioUrl: "", //"https://sites.google.com/view/luna-go/portafolio",
   // Redes sociales (salen en el pie de TODAS las páginas). Añade o quita las que quieras.
   redes: [
-    { nombre: "Instagram", url: "https://instagram.com/tu_usuario" },
-    { nombre: "TikTok",    url: "https://tiktok.com/@tu_usuario" },
-    { nombre: "Behance",   url: "https://behance.net/tu_usuario" },
+    { nombre: "Instagram", url: "https://www.instagram.com/_luna_go_" },
+    { nombre: "TikTok",    url: "https://tiktok.com/@luna_go_" },
+    //{ nombre: "Behance",   url: "https://behance.net/tu_usuario" },
   ],
 };
 
@@ -23,12 +23,17 @@ const SITE = {
 /* retrato → foto tuya (p. ej. "obras/retrato.jpg"); null si no quieres foto.
    cuerpo  → tu texto en HTML sencillo: <p>…</p>, <h2>…</h2>, etc.            */
 const ABOUT = {
-  titulo:  "Sobre Luna Go",
+  titulo:  "Marisol Diaz - Luna Go",
   retrato: null,
   cuerpo: `
-    <p>Luna Go (México, 1998) es pintora, muralista e ilustradora. Su obra explora el cuerpo, el descanso y el paisaje a través de una paleta nocturna donde el verde se contamina de violeta.</p>
-    <p>Trabaja entre el lienzo íntimo y la pared de gran formato, buscando ese momento en que la figura y su entorno se funden en una misma penumbra.</p>
-    <p>Ha expuesto en espacios independientes y realizado murales por encargo. Actualmente desarrolla una serie sobre el reposo a plena luz del día.</p>
+    <p>Nació en 1994 en la ciudad de Oaxaca, México, territorio ligado a las prácticas artísticas y comunitarias. Desde joven participó en movimientos sociales y en marchas contra políticas educativas, donde el arte se convirtió en un lenguaje de protesta. Estudió Gestión Cultural y Desarrollo Sustentable en la Universidad Autónoma Benito Juárez de Oaxaca y tomó cursos en el Centro de las Artes de San Agustín.</p>
+
+    <p>En 2016 comenzó a pintar murales desde un enfoque poético y narrativo, buscando que el espacio público sea un lugar de encuentro y diálogo. Ha participado en festivales y proyectos artísticos en varios estados de México.</p>
+
+    <p>Actualmente vive en Madrid, España, donde estudia pintura al óleo en la Fundación Museo Sorolla y el Estudio de Alejandro Decinti. Su práctica artística se ha desplazado del mural al lienzo, explorando nuevas formas íntimas de contar historias marcadas por la experiencia migratoria y la memoria del territorio.</p>
+
+    <p>Ha realizado murales como <em>“Sin Mirar Atrás”</em> en el Reclusorio Femenil de Tanivet, Oaxaca, y <em>“Vivas y Libres”</em> en el Instituto de la Mujer Oaxaqueña, así como proyectos de ilustración para Ora World Mandala. Participó en exposiciones colectivas como <em>“Apuntes de Luz”</em> en Madrid (2025) y en festivales internacionales de muralismo en México.</p>
+  
   `,
 };
 
@@ -53,54 +58,441 @@ const CATEGORIAS = [
      venta     → true si está EN VENTA (aparece en la Tienda). false si no.
      precio    → precio a mostrar en la Tienda, p. ej. "1.200 €". "" si no aplica. */
 const OBRAS = [
+  // 2026
   {
-    titulo: "Sin título", anio: 2026, cat: "pintura",
-    medida: "Acrílico sobre tela · 100×80 cm",
-    descripcion: "Una figura descansa entre nopales, mecida por una penumbra violeta. El verde del desierto se contamina de morado hasta volverse refugio: un retrato del reposo a plena luz del día.",
-    img: "obras/sin-titulo.jpg", destacada: true,
-    venta: true, precio: "1.800 €",
+    titulo: "Sin nombre",
+    anio: 2026,
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/26/sin_nombre_ilustracion_26.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
   },
   {
-    titulo: "Luz de nopal", anio: 2026, cat: "pintura",
-    medida: "Acrílico sobre tela",
+    titulo: "La sociedad del cansancio",
+    anio: 2026,
+    cat: "pintura",
+    medida: "",
     descripcion: "",
-    img: null, destacada: false,
-    venta: false, precio: "",
+    img: "obras/26/la_sociedad_del_cansancio_pintura_26.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
   },
   {
-    titulo: "Marea de plata", anio: 2025, cat: "pintura",
-    medida: "Óleo sobre tela",
+    titulo: "La invitada",
+    anio: 2026,
+    cat: "pintura",
+    medida: "",
     descripcion: "",
-    img: null, destacada: true,
-    venta: true, precio: "1.200 €",
+    img: "obras/26/la_invitada_pintura_26.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
   },
   {
-    titulo: "Cráter", anio: 2024, cat: "mural",
-    medida: "Acrílico · 4×3 m",
+    titulo: "Hilanderas",
+    anio: 2026,
+    cat: "pintura",
+    medida: "",
     descripcion: "",
-    img: null, destacada: true,
-    venta: false, precio: "",
+    img: "obras/26/hilanderas_pintura_26.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
   },
   {
-    titulo: "Vía láctea", anio: 2024, cat: "mural",
-    medida: "Acrílico",
+    titulo: "Felipa",
+    anio: 2026,
+    cat: "pintura",
+    medida: "",
     descripcion: "",
-    img: null, destacada: false,
-    venta: false, precio: "",
+    img: "obras/26/felipa_pintura_26.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
   },
   {
-    titulo: "Eclipse íntimo", anio: 2026, cat: "ilustracion",
-    medida: "Tinta y acuarela",
+    titulo: "Corazon de nopal",
+    anio: 2026,
+    cat: "pintura",
+    medida: "",
     descripcion: "",
-    img: null, destacada: false,
-    venta: true, precio: "180 €",
+    img: "obras/26/corazon_de_nopal_pintura_26.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+
+  // 2025
+  {
+    titulo: "Respirar despacio",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/25/respirar_despacio_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
   },
   {
-    titulo: "Fase menguante", anio: 2023, cat: "ilustracion",
-    medida: "Grafito y gouache",
+    titulo: "Oaxaca",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
     descripcion: "",
-    img: null, destacada: false,
-    venta: false, precio: "",
+    img: "obras/25/oaxaca_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Murphy",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/25/murphy_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Las flores de mi vida (flores de mayo)",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/25/las_flores_de_mi_vida(flores_de_mayo)_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Entre bugambilias",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/25/entre bugambilias_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Donde no se toca fondo",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/25/donde_no_se_toca_fondo_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Donde habita lo otro",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/25/donde_habita_lo otro_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Dicen que no hay guerra",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/25/dicen_que_no_hay_guerra_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Desde niñxs festejamos (teotitlan del valle)",
+    anio: 2025,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/25/desde_niñxs_festejamos(teotitlan_del_valle)_pintura_25.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+
+  // 2024
+  {
+    titulo: "Yo te cuido",
+    anio: 2024,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/yo_te_cuido_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Volver por flores",
+    anio: 2024,
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/volver_por_flores_ilustracion_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Sin mirar atras",
+    anio: 2024,
+    cat: "mural",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/sin_mirar_atras_mural_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Sin mirar atras g",
+    anio: 2024,
+    cat: "mural",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/sin_mirar_atras_g_mural_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Pra crecer se leva tempo",
+    anio: 2024,
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/pra_crecer_se_leva_tempo_ilustracion_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Orejas",
+    anio: 2024,
+    cat: "mural",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/orejas_mural_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Nuestra madre (la mixteca)",
+    anio: 2024,
+    cat: "mural",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/nuestra_madre(la_mixteca)_mural_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Nuestra madre (la mixteca)",
+    anio: 2024,
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/nuestra_madre(la_mixteca)_ilustracion_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Mas alla del cuerpo",
+    anio: 2024,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/mas_alla_del_cuerpo_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Insomnio de luna llena",
+    anio: 2024,
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/insomnio_de_luna_llena_ilustracion_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Incendios",
+    anio: 2024,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/incendios_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Estudio",
+    anio: 2024,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/estudio_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "El viaje",
+    anio: 2024,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/el_viaje_pintura_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "El viaje",
+    anio: 2024,
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/el_viaje_ilustracion_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+
+  // 2023
+  {
+    titulo: "Te de poleo",
+    anio: 2023,
+    cat: "mural",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/te_de_poleo_mural_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Moras y cafe",
+    anio: 2023,
+    cat: "mural",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/moras_y_cafe_mural_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Momo",
+    anio: 2023,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/momo_pintura_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "La luna",
+    anio: 2023,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/la_luna_pintura_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "La espera",
+    anio: 2023,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/la_espera_pintura_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Fiesta oaxaqueña",
+    anio: 2023,
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/fiesta_oaxaqueña_ilustracion_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Estudio de color y luz",
+    anio: 2023,
+    cat: "pintura",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/estudio_de_color_y_luz_pintura_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Cafe en taza",
+    anio: 2023,
+    cat: "mural",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/cafe_en_taza_mural_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Caer",
+    anio: 2023,
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/caer_ilustracion_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Bordados",
+    anio: 2023,
+    cat: "mural",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/bordados_mural_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
   },
 ];
 

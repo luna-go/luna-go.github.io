@@ -14,6 +14,7 @@
   const metaEl    = document.getElementById('vMeta');
   const descEl    = document.getElementById('vDesc');
   const film      = document.getElementById('film');
+  const dotsWrap  = document.getElementById('gDots');
 
   document.title = `Luna Go — ${nombreCategoria(cat)} ${anio}`;
   titleEl.innerHTML = `${nombreCategoria(cat)} <span class="sep">·</span> <span class="yr">${anio}</span>`;
@@ -59,15 +60,26 @@
     }
     t.addEventListener('click', () => go(i));
     film.appendChild(t);
+
+    // punto de color (como en la portada)
+    const dot = document.createElement('button');
+    dot.setAttribute('role', 'tab');
+    dot.setAttribute('aria-label', `${o.titulo}, ${o.anio}`);
+    dot.setAttribute('aria-current', i === 0 ? 'true' : 'false');
+    dot.style.setProperty('--dot', DOT_COLORS[i % DOT_COLORS.length]);
+    dot.addEventListener('click', () => go(i));
+    dotsWrap.appendChild(dot);
   });
 
   const slides = [...viewer.querySelectorAll('.v-slide')];
   const thumbs = [...film.querySelectorAll('.thumb')];
+  const dots   = [...dotsWrap.querySelectorAll('button')];
   let idx = 0;
 
   function render(){
     slides.forEach((s, i) => s.classList.toggle('is-active', i === idx));
     thumbs.forEach((t, i) => t.classList.toggle('is-active', i === idx));
+    dots.forEach((d, i) => d.setAttribute('aria-current', i === idx ? 'true' : 'false'));
     const o = obras[idx];
     metaEl.innerHTML =
       `<div class="v-line"><span class="t">${o.titulo}</span><span class="y">${o.mes ? o.mes + ' ' : ''}${o.anio}</span></div>` +

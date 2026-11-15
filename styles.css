@@ -455,6 +455,7 @@ body{
 /* tira de miniaturas */
 .filmstrip{
   display: flex;
+  justify-content: center;
   gap: .6rem;
   padding-top: clamp(.85rem, 2vh, 1.15rem);
   overflow-x: auto;

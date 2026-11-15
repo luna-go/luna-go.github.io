@@ -437,9 +437,9 @@ body{
 }
 .v-meta .t{
   font-family: var(--font-display);
-  font-style: italic; font-weight: 500;
+  font-style: normal; font-weight: 500;
   font-size: clamp(1.4rem, 2.6vw, 2rem);
-  color: var(--ink);
+  color: var(--muted);
 }
 .v-meta .y{ font-size: .72rem; letter-spacing: .24em; color: var(--muted); }
 .v-meta .med{ margin-top: .35rem; font-size: .82rem; color: var(--periwinkle); }
@@ -726,7 +726,7 @@ body{
 .post-body a:hover{ color: var(--lilac); }
 
 #gTitle{ display: none; }
-/* #gCounter{ display: none; }. */
+#gCounter{ display: none; }
 
 .v-bar{ display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem; }
 .gdots{ flex: 0 0 auto; padding-bottom: .35rem; }

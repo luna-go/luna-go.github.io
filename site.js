@@ -21,8 +21,8 @@
   mount.outerHTML = `
     <header class="site-header">
       <a class="wordmark" href="index.html" aria-label="Luna Go — Inicio">Luna Go</a>
-      <a class="nav-link" href="about.html">About</a>
       <nav class="nav" aria-label="Navegacion principal">
+        <a class="nav-link" href="about.html">Sobre mi</a>
         ${cats}
         
         <a class="nav-link" href="tienda.html">Tienda</a>

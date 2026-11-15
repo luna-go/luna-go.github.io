@@ -60,12 +60,14 @@ body{
 }
 
 .wordmark{
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-style: normal;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
   line-height: 1;
-  letter-spacing: .01em;
+  letter-spacing: .34em;
+  text-transform: uppercase;
+  text-indent: .34em;        /* compensa el espacio del último carácter */
   color: var(--ink);
   text-decoration: none;
   white-space: nowrap;

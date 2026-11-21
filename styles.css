@@ -537,7 +537,7 @@ body{
   font-family: var(--font-body); font-weight: 300;
   font-size: clamp(1rem, 4vw, 1.2rem); line-height: 1.1;
   color: var(--ink); margin: .3rem 0 .45rem;
-  letter-spacing: .28em;
+  letter-spacing: .18em;
   font-style: normal;
   transition: color .3s ease;
 }
@@ -556,8 +556,8 @@ body{
   font-family: var(--font-body); font-weight: 300;
   font-size: clamp(1.2rem, 5vw, 1.5rem); line-height: 1;
   color: var(--ink); margin: .5rem 0 1.5rem;
-  letter-spacing: .34em;
-   text-indent: .34em; 
+  letter-spacing: .24em;
+   text-indent: .24em; 
    font-style: normal;
    text-decoration: none;
   white-space: nowrap;
@@ -569,7 +569,7 @@ body{
 .post-body p{ margin-bottom: 1.3rem; }
 .post-body h2{
   font-family: var(--font-body); font-weight: 300;
-  font-size: 1.15rem; letter-spacing: .28em;
+  font-size: 1.15rem; letter-spacing: .18em;
   color: var(--ink); margin: 2.2rem 0 .9rem;
 }
 .post-body blockquote{

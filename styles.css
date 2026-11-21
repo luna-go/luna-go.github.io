@@ -248,10 +248,11 @@ body{
 
 .caption{ line-height: 1.15; }
 .caption .title{
-  font-family: var(--font-display);
-  font-style: normal;
-  font-weight: 500;
-  font-size: clamp(1.7rem, 3.4vw, 2.6rem);
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: .72rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
   color: var(--muted);
 }
 .caption .year{
@@ -436,9 +437,11 @@ body{
   gap: .1rem .9rem;
 }
 .v-meta .t{
-  font-family: var(--font-display);
-  font-style: normal; font-weight: 500;
-  font-size: clamp(1.7rem, 3.4vw, 2.6rem);
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: .72rem;
+  letter-spacing: .22em;
+  text-transform: uppercase;
   color: var(--muted);
 }
 .v-meta .y{ font-size: .72rem; letter-spacing: .24em; color: var(--muted); }

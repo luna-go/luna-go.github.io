@@ -549,8 +549,8 @@ body{
 /* entrada individual */
 .post-date{ display: block; font-size: .72rem; letter-spacing: .24em; text-transform: uppercase; color: var(--slate); }
 .post-title{
-  font-family: var(--font-display); font-weight: 500;
-  font-size: clamp(2.1rem, 5vw, 3rem); line-height: 1.08;
+  font-family: var(--font-body); font-weight: 500;
+  font-size: clamp(2.1rem, 5vw, 2.5rem); line-height: 1.08;
   color: var(--ink); margin: .5rem 0 1.5rem;
 }
 .post-cover{ width: 100%; border-radius: 2px; margin-bottom: 2rem; box-shadow: 0 24px 55px -34px rgba(38,36,72,.5); }

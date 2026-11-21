@@ -549,10 +549,17 @@ body{
 /* entrada individual */
 .post-date{ display: block; font-size: .72rem; letter-spacing: .24em; text-transform: uppercase; color: var(--slate); }
 .post-title{
-  font-family: var(--font-body); font-weight: 500;
-  font-size: clamp(1.2rem, 5vw, 1.5rem); line-height: 1.08;
+  font-family: var(--font-body); font-weight: 300;
+  font-size: clamp(1.2rem, 5vw, 1.5rem); line-height: 1;
   color: var(--ink); margin: .5rem 0 1.5rem;
+  letter-spacing: .34em;
+   text-indent: .34em; 
+   font-style: normal;
+   text-decoration: none;
+  white-space: nowrap;
 }
+
+
 .post-cover{ width: 100%; border-radius: 2px; margin-bottom: 2rem; box-shadow: 0 24px 55px -34px rgba(38,36,72,.5); }
 .post-body{ font-size: 1.08rem; line-height: 1.75; color: #33324f; }
 .post-body p{ margin-bottom: 1.3rem; }

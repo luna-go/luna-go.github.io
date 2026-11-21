@@ -565,7 +565,7 @@ body{
 
 
 .post-cover{ width: 100%; border-radius: 2px; margin-bottom: 2rem; box-shadow: 0 24px 55px -34px rgba(38,36,72,.5); }
-.post-body{ font-size: 1.08rem; line-height: 1.75; color: #33324f; }
+.post-body{ font-size: 1.08rem; line-height: 1.75; color: var(--muted); }
 .post-body p{ margin-bottom: 1.3rem; }
 .post-body h2{
   font-family: var(--font-body); font-weight: 300;

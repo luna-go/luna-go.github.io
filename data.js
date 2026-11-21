@@ -51,17 +51,6 @@ const OBRAS = [].concat(
   typeof ILUSTRACIONES !== 'undefined' ? ILUSTRACIONES : []
 );
 
-
-/* BLOG / DIARIO ------------------------------------------------------------- */
-/* Cada entrada:
-     id      → nombre corto para la dirección (entrada.html?id=...)
-     titulo  → título de la entrada
-     fecha   → "AAAA-MM-DD"
-     resumen → frase que se ve en el listado
-     img     → imagen de portada (opcional; null si no hay)
-     cuerpo  → el texto, en HTML sencillo: <p>…</p>, <h2>…</h2>,
-               <blockquote>…</blockquote>, <img src="obras/…">              */
-
 /* Utilidades compartidas (no hace falta tocar) ------------------------------ */
 const DOT_COLORS = ["#B192BA", "#9DA2B8", "#262448", "#6E84AC"];
 

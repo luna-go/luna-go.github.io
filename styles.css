@@ -534,9 +534,11 @@ body{
 .pc-body{ display: flex; flex-direction: column; }
 .pc-date{ font-size: .7rem; letter-spacing: .22em; text-transform: uppercase; color: var(--slate); }
 .pc-title{
-  font-family: var(--font-display); font-weight: 500;
-  font-size: clamp(1.4rem, 3vw, 1.9rem); line-height: 1.1;
+  font-family: var(--font-body); font-weight: 300;
+  font-size: clamp(1rem, 4vw, 1.2rem); line-height: 1.1;
   color: var(--ink); margin: .3rem 0 .45rem;
+  letter-spacing: .28em;
+  font-style: normal;
   transition: color .3s ease;
 }
 .post-card:hover .pc-title{ color: var(--lilac); }
@@ -548,7 +550,9 @@ body{
 
 /* entrada individual */
 .post-date{ display: block; font-size: .72rem; letter-spacing: .24em; text-transform: uppercase; color: var(--slate); }
-.post-title{
+.post-title,
+.gallery-head h1,
+.page-head h1{
   font-family: var(--font-body); font-weight: 300;
   font-size: clamp(1.2rem, 5vw, 1.5rem); line-height: 1;
   color: var(--ink); margin: .5rem 0 1.5rem;

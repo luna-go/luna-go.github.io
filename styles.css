@@ -249,10 +249,10 @@ body{
 .caption{ line-height: 1.15; }
 .caption .title{
   font-family: var(--font-display);
-  font-style: italic;
+  font-style: normal;
   font-weight: 500;
-  font-size: clamp(1.5rem, 3vw, 2.35rem);
-  color: var(--ink);
+  font-size: clamp(1.7rem, 3.4vw, 2.6rem);
+  color: var(--muted);
 }
 .caption .year{
   margin-left: .7rem;
@@ -438,7 +438,7 @@ body{
 .v-meta .t{
   font-family: var(--font-display);
   font-style: normal; font-weight: 500;
-  font-size: clamp(1.4rem, 2.6vw, 2rem);
+  font-size: clamp(1.7rem, 3.4vw, 2.6rem);
   color: var(--muted);
 }
 .v-meta .y{ font-size: .72rem; letter-spacing: .24em; color: var(--muted); }

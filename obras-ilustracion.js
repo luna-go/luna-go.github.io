@@ -52,22 +52,11 @@ const ILUSTRACIONES = [
     venta: false,
     precio: ""
   },
-  {
-    titulo: "Insomnio de luna llena",
-    anio: 2024,
-    mes: "",
-    cat: "ilustracion",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/insomnio_de_luna_llena_ilustracion_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
+
   {
     titulo: "El viaje",
     anio: 2024,
-    mes: "",
+    mes: "Septiembre",
     cat: "ilustracion",
     medida: "",
     descripcion: "",
@@ -90,6 +79,18 @@ const ILUSTRACIONES = [
   },
 
   // 2023
+  {
+    titulo: "Insomnio de luna llena",
+    anio: 2023,
+    mes: "Mayo",
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/23/insomnio_de_luna_llena_ilustracion_23.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
   {
     titulo: "Caer",
     anio: 2023,

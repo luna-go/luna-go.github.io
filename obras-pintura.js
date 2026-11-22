@@ -77,7 +77,7 @@ const PINTURAS = [
     medida: "Óleo sobre madera · 50cm x 50cm",
     descripcion: `Hace un par de meses, junto a Lucia planeamos esta colaboración en honor a la creación y a la importancia de la práctica textil, y sobre todo a la comunidad que se forma en torno a ella. La lana se convierte en un pretexto para dialogar y compartir, una práctica que ha atravesado el tiempo, los mitos y los territorios.
 
-Pintura para el taller de @istakypuma`,
+Pintura para el taller de [@istakypuma](https://www.instagram.com/istakypuma/)`,
     img: "obras/26/hilanderas_pintura_26.jpg",
     destacada: false,
     venta: false,

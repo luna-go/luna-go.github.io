@@ -5,7 +5,7 @@ const ILUSTRACIONES = [
   {
     titulo: "Sin nombre",
     anio: 2026,
-    mes: "",
+    mes: "Junio",
     cat: "ilustracion",
     medida: "",
     descripcion: "",
@@ -19,7 +19,7 @@ const ILUSTRACIONES = [
   {
     titulo: "Nuestra madre (la mixteca)",
     anio: 2024,
-    mes: "Mayo",
+    mes: "Abril",
     cat: "ilustracion",
     medida: "",
     descripcion: "",
@@ -29,21 +29,9 @@ const ILUSTRACIONES = [
     precio: ""
   },
   {
-    titulo: "Volver por flores",
-    anio: 2024,
-    mes: "",
-    cat: "ilustracion",
-    medida: "",
-    descripcion: "",
-    img: "obras/24/volver_por_flores_ilustracion_24.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
-  {
     titulo: "Pra crecer se leva tempo",
     anio: 2024,
-    mes: "",
+    mes: "Agosto",
     cat: "ilustracion",
     medida: "",
     descripcion: "",
@@ -52,7 +40,6 @@ const ILUSTRACIONES = [
     venta: false,
     precio: ""
   },
-
   {
     titulo: "El viaje",
     anio: 2024,
@@ -73,6 +60,18 @@ const ILUSTRACIONES = [
     medida: "",
     descripcion: "",
     img: "obras/24/fiesta_oaxaqueña_ilustracion_24.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+  {
+    titulo: "Volver por flores",
+    anio: 2024,
+    mes: "Noviembre",
+    cat: "ilustracion",
+    medida: "",
+    descripcion: "",
+    img: "obras/24/volver_por_flores_ilustracion_24.jpg",
     destacada: false,
     venta: false,
     precio: ""

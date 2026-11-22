@@ -76,26 +76,26 @@ const ILUSTRACIONES = [
     venta: false,
     precio: ""
   },
-
-  // 2023
   {
-    titulo: "Fiesta oaxaqueña",
-    anio: 2023,
-    mes: "",
+    titulo: "Soy nopal",
+    anio: 2024,
+    mes: "Noviembre",
     cat: "ilustracion",
     medida: "",
     descripcion: "",
-    img: "obras/23/fiesta_oaxaqueña_ilustracion_23.jpg",
+    img: "obras/24/fiesta_oaxaqueña_ilustracion_24.jpg",
     destacada: false,
     venta: false,
     precio: ""
   },
+
+  // 2023
   {
     titulo: "Caer",
     anio: 2023,
-    mes: "",
+    mes: "Noviembre",
     cat: "ilustracion",
-    medida: "",
+    medida: "21cm x 29.7cm",
     descripcion: "",
     img: "obras/23/caer_ilustracion_23.jpg",
     destacada: false,

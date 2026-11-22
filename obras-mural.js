@@ -59,7 +59,7 @@ Proyecto gestionado por el artista Mother (Marco Gonzáles) para Roel Comerciali
     anio: 2023,
     mes: "Octubre",
     cat: "mural",
-    medida: "",
+    medida: "Vinil y acrílico sobre concreto · 2.5m x 6m",
     descripcion: `Las plantas siempre han estado presentes en mi vida, cada vez que me enfermaba mi mamá me daba tés para la gripa, para el empacho, la bilis, el estreñimiento y otras enfermedades, ahora que vivo en otra ciudad a lo primero que recurro es a tomar tés. Se vuelve eso que me reconecta con mi pertenencia con Oaxaca, con mis ancestros, con las tradiciones a través del aroma, el calor y el sabor.
 
 La medicina tradicional siempre ha estado presente en Oaxaca, por eso pinto y retomo el poleo (mentha pulegium). Los zapotecos le llaman hierba o rosa de borracho, poleo, guiezza y quieuetzu, sirve para curar la cruda, cólicos entre otros males.

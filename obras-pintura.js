@@ -15,19 +15,7 @@
 const PINTURAS = [
 
   // 2026
-  {
-    titulo: "La sociedad del cansancio",
-    anio: 2026,
-    mes: "Abril",
-    lugar: "Madrid, España",
-    cat: "pintura",
-    medida: "Óleo sobre madera",
-    descripcion: "",
-    img: "obras/26/la_sociedad_del_cansancio_pintura_26.jpg",
-    destacada: false,
-    venta: false,
-    precio: ""
-  },
+  
   {
     titulo: "La invitada",
     anio: 2026,
@@ -51,6 +39,19 @@ const PINTURAS = [
     medida: "Óleo sobre lienzo de tela · 92cm x 73cm",
     descripcion: "",
     img: "obras/26/felipa_pintura_26.jpg",
+    destacada: false,
+    venta: false,
+    precio: ""
+  },
+     {
+    titulo: "La sociedad del cansancio",
+    anio: 2026,
+    mes: "Abril",
+    lugar: "Madrid, España",
+    cat: "pintura",
+    medida: "Óleo sobre madera",
+    descripcion: "",
+    img: "obras/26/la_sociedad_del_cansancio_pintura_26.jpg",
     destacada: false,
     venta: false,
     precio: ""
